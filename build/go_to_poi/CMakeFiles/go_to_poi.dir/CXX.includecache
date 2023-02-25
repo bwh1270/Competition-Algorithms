@@ -25,6 +25,10 @@ geometry_msgs/Point.h
 -
 
 /home/hyun1270/competition_ws/woohyun_ws/src/go_to_poi/src/go_to_poi.cpp
+iostream
+-
+vector
+-
 ros/ros.h
 /home/hyun1270/competition_ws/woohyun_ws/src/go_to_poi/src/ros/ros.h
 geometry_msgs/Point.h
@@ -33,10 +37,6 @@ geometry_msgs/PointStamped.h
 /home/hyun1270/competition_ws/woohyun_ws/src/go_to_poi/src/geometry_msgs/PointStamped.h
 go_to_poi/poi.h
 /home/hyun1270/competition_ws/woohyun_ws/src/go_to_poi/src/go_to_poi/poi.h
-iostream
--
-vector
--
 
 /opt/ros/melodic/include/geometry_msgs/Point.h
 string

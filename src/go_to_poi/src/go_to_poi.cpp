@@ -64,6 +64,7 @@ int main(int argc, char **argv)
     ros::Subscriber current_pos_sub = nh.subscribe("red/position", 10, &current_pos_callback);
     ros::Subscriber poi_arrary_sub = nh.subscribe("poi", 10, &poi_array_sub);
 
+    ROS_INFO("vehicle starts!!");
     ros::spin();
     return 0;
 }

@@ -14,6 +14,8 @@ Linked: (/home/hyun1270/competition_ws/woohyun_ws/devel/.private/go_to_poi/share
 Linked: (/home/hyun1270/competition_ws/woohyun_ws/devel/.private/go_to_poi/share/gennodejs/ros/go_to_poi/msg/_index.js, /home/hyun1270/competition_ws/woohyun_ws/devel/share/gennodejs/ros/go_to_poi/msg/_index.js)
 Linked: (/home/hyun1270/competition_ws/woohyun_ws/devel/.private/go_to_poi/lib/pkgconfig/go_to_poi.pc, /home/hyun1270/competition_ws/woohyun_ws/devel/lib/pkgconfig/go_to_poi.pc)
 Linked: (/home/hyun1270/competition_ws/woohyun_ws/devel/.private/go_to_poi/lib/go_to_poi/go_to_poi, /home/hyun1270/competition_ws/woohyun_ws/devel/lib/go_to_poi/go_to_poi)
+Linked: (/home/hyun1270/competition_ws/woohyun_ws/devel/.private/go_to_poi/lib/go_to_poi/talker_pose, /home/hyun1270/competition_ws/woohyun_ws/devel/lib/go_to_poi/talker_pose)
+Linked: (/home/hyun1270/competition_ws/woohyun_ws/devel/.private/go_to_poi/lib/go_to_poi/talker_poi, /home/hyun1270/competition_ws/woohyun_ws/devel/lib/go_to_poi/talker_poi)
 Linked: (/home/hyun1270/competition_ws/woohyun_ws/devel/.private/go_to_poi/lib/python2.7/dist-packages/go_to_poi/__init__.py, /home/hyun1270/competition_ws/woohyun_ws/devel/lib/python2.7/dist-packages/go_to_poi/__init__.py)
 Linked: (/home/hyun1270/competition_ws/woohyun_ws/devel/.private/go_to_poi/lib/python2.7/dist-packages/go_to_poi/msg/__init__.py, /home/hyun1270/competition_ws/woohyun_ws/devel/lib/python2.7/dist-packages/go_to_poi/msg/__init__.py)
 Linked: (/home/hyun1270/competition_ws/woohyun_ws/devel/.private/go_to_poi/lib/python2.7/dist-packages/go_to_poi/msg/_poi.py, /home/hyun1270/competition_ws/woohyun_ws/devel/lib/python2.7/dist-packages/go_to_poi/msg/_poi.py)
