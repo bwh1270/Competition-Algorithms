@@ -1,0 +1,8 @@
+prefix=/home/hyun1270/competition_ws/woohyun_ws/install
+
+Name: go_to_poi
+Description: Description of go_to_poi
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs roscpp rospy trajectory_msgs

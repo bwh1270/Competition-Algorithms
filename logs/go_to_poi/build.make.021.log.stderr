@@ -1,0 +1,14 @@
+/home/hyun1270/competition_ws/woohyun_ws/src/go_to_poi/src/go_to_poi.cpp: In function ‘void poi_array_sub(const ConstPtr&)’:
+/home/hyun1270/competition_ws/woohyun_ws/src/go_to_poi/src/go_to_poi.cpp:34:9: error: ‘calculate_range’ was not declared in this scope
+         calculate_range(current_pos, temp_poi, &range);
+         ^~~~~~~~~~~~~~~
+/home/hyun1270/competition_ws/woohyun_ws/src/go_to_poi/src/go_to_poi.cpp:34:9: note: suggested alternative: ‘copy_file_range’
+         calculate_range(current_pos, temp_poi, &range);
+         ^~~~~~~~~~~~~~~
+         copy_file_range
+/home/hyun1270/competition_ws/woohyun_ws/src/go_to_poi/src/go_to_poi.cpp:40:9: error: expected ‘;’ before ‘}’ token
+         }
+         ^
+make[2]: *** [CMakeFiles/go_to_poi.dir/src/go_to_poi.cpp.o] Error 1
+make[1]: *** [CMakeFiles/go_to_poi.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,26 @@
+[35m[1mScanning dependencies of target go_to_poi[0m
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_py
+[ 15%] Built target talker_poi
+[ 15%] Built target geometry_msgs_generate_messages_lisp
+[ 15%] Built target geometry_msgs_generate_messages_cpp
+[ 30%] Built target talker_pose
+[ 38%] [32mBuilding CXX object CMakeFiles/go_to_poi.dir/src/go_to_poi.cpp.o[0m
+[ 38%] Built target geometry_msgs_generate_messages_eus
+[ 38%] Built target _go_to_poi_generate_messages_check_deps_poi
+[ 53%] Built target go_to_poi_generate_messages_eus
+[ 61%] Built target go_to_poi_generate_messages_cpp
+[ 76%] Built target go_to_poi_generate_messages_py
+[ 92%] Built target go_to_poi_generate_messages_lisp
+[ 92%] Built target go_to_poi_generate_messages_nodejs
+[ 92%] Built target go_to_poi_generate_messages
+/home/hyun1270/competition_ws/woohyun_ws/src/go_to_poi/src/go_to_poi.cpp: In function ‘void poi_array_sub(const ConstPtr&)’:
+/home/hyun1270/competition_ws/woohyun_ws/src/go_to_poi/src/go_to_poi.cpp:53:28: error: ‘i’ was not declared in this scope
+          << waypoint_index[i] << endl;
+                            ^
+CMakeFiles/go_to_poi.dir/build.make:62: recipe for target 'CMakeFiles/go_to_poi.dir/src/go_to_poi.cpp.o' failed
+make[2]: *** [CMakeFiles/go_to_poi.dir/src/go_to_poi.cpp.o] Error 1
+CMakeFiles/Makefile2:1361: recipe for target 'CMakeFiles/go_to_poi.dir/all' failed
+make[1]: *** [CMakeFiles/go_to_poi.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

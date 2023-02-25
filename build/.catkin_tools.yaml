@@ -1,0 +1,6 @@
+devel_space: /home/hyun1270/competition_ws/woohyun_ws/devel
+install: false
+install_space: /home/hyun1270/competition_ws/woohyun_ws/install
+profile: default
+source_space: /home/hyun1270/competition_ws/woohyun_ws/src
+workspace: /home/hyun1270/competition_ws/woohyun_ws

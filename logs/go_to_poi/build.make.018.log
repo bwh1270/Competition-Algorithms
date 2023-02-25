@@ -1,0 +1,18 @@
+[35m[1mScanning dependencies of target talker_pose[0m
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[ 15%] Built target go_to_poi
+[ 23%] [32mBuilding CXX object CMakeFiles/talker_pose.dir/src/talker_pose.cpp.o[0m
+[ 38%] Built target talker_poi
+[ 38%] Built target geometry_msgs_generate_messages_eus
+[ 38%] Built target _go_to_poi_generate_messages_check_deps_poi
+[ 46%] Built target go_to_poi_generate_messages_lisp
+[ 53%] Built target go_to_poi_generate_messages_nodejs
+[ 61%] Built target go_to_poi_generate_messages_cpp
+[ 76%] Built target go_to_poi_generate_messages_eus
+[ 92%] Built target go_to_poi_generate_messages_py
+[ 92%] Built target go_to_poi_generate_messages
+[100%] [32m[1mLinking CXX executable /home/hyun1270/competition_ws/woohyun_ws/devel/.private/go_to_poi/lib/go_to_poi/talker_pose[0m
+[100%] Built target talker_pose

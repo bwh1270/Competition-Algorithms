@@ -1,0 +1,7 @@
+/home/hyun1270/competition_ws/woohyun_ws/src/go_to_poi/src/talker_poi.cpp: In function ‘int main(int, char**)’:
+/home/hyun1270/competition_ws/woohyun_ws/src/go_to_poi/src/talker_poi.cpp:20:11: error: ‘go_to_poi::poi {aka struct go_to_poi::poi_<std::allocator<void> >}’ has no member named ‘resize’
+  PoIArray.resize(3);
+           ^~~~~~
+make[2]: *** [CMakeFiles/talker_poi.dir/src/talker_poi.cpp.o] Error 1
+make[1]: *** [CMakeFiles/talker_poi.dir/all] Error 2
+make: *** [all] Error 2

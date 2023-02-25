@@ -1,0 +1,41 @@
+In file included from /opt/ros/melodic/include/ros/ros.h:40:0,
+                 from /home/hyun1270/competition_ws/woohyun_ws/src/go_to_poi/src/talker_poi.cpp:1:
+/opt/ros/melodic/include/ros/console.h:381:3: error: expected unqualified-id before ‘do’
+   do \
+   ^
+/opt/ros/melodic/include/ros/console.h:572:35: note: in expansion of macro ‘ROS_LOG_COND’
+ #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+                                   ^~~~~~~~~~~~
+/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23: note: in expansion of macro ‘ROS_LOG’
+ #define ROS_INFO(...) ROS_LOG(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       ^~~~~~~
+/home/hyun1270/competition_ws/woohyun_ws/src/go_to_poi/src/talker_poi.cpp:26:1: note: in expansion of macro ‘ROS_INFO’
+ ROS_INFO("PoI is publishing now!!");
+ ^~~~~~~~
+/opt/ros/melodic/include/ros/console.h:389:5: error: expected unqualified-id before ‘while’
+   } while(false)
+     ^
+/opt/ros/melodic/include/ros/console.h:572:35: note: in expansion of macro ‘ROS_LOG_COND’
+ #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+                                   ^~~~~~~~~~~~
+/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23: note: in expansion of macro ‘ROS_LOG’
+ #define ROS_INFO(...) ROS_LOG(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       ^~~~~~~
+/home/hyun1270/competition_ws/woohyun_ws/src/go_to_poi/src/talker_poi.cpp:26:1: note: in expansion of macro ‘ROS_INFO’
+ ROS_INFO("PoI is publishing now!!");
+ ^~~~~~~~
+/home/hyun1270/competition_ws/woohyun_ws/src/go_to_poi/src/talker_poi.cpp:27:1: error: ‘poi_pub’ does not name a type
+ poi_pub.publish(PoIArray);
+ ^~~~~~~
+/home/hyun1270/competition_ws/woohyun_ws/src/go_to_poi/src/talker_poi.cpp:28:12: error: expected constructor, destructor, or type conversion before ‘;’ token
+ ros::spin();
+            ^
+/home/hyun1270/competition_ws/woohyun_ws/src/go_to_poi/src/talker_poi.cpp:29:1: error: expected unqualified-id before ‘return’
+ return 0;
+ ^~~~~~
+/home/hyun1270/competition_ws/woohyun_ws/src/go_to_poi/src/talker_poi.cpp:30:1: error: expected declaration before ‘}’ token
+ }
+ ^
+make[2]: *** [CMakeFiles/talker_poi.dir/src/talker_poi.cpp.o] Error 1
+make[1]: *** [CMakeFiles/talker_poi.dir/all] Error 2
+make: *** [all] Error 2

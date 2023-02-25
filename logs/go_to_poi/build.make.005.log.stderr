@@ -1,0 +1,7 @@
+/home/hyun1270/competition_ws/woohyun_ws/src/go_to_poi/src/go_to_poi.cpp: In function ‘void poi_callback(const ConstPtr&)’:
+/home/hyun1270/competition_ws/woohyun_ws/src/go_to_poi/src/go_to_poi.cpp:16:14: error: ‘const ConstPtr {aka const class boost::shared_ptr<const go_to_poi::poi_<std::allocator<void> > >}’ has no member named ‘size’
+         *msg.size();
+              ^~~~
+make[2]: *** [CMakeFiles/go_to_poi.dir/src/go_to_poi.cpp.o] Error 1
+make[1]: *** [CMakeFiles/go_to_poi.dir/all] Error 2
+make: *** [all] Error 2

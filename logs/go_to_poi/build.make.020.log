@@ -1,0 +1,44 @@
+[35m[1mScanning dependencies of target go_to_poi[0m
+[35m[1mScanning dependencies of target talker_pose[0m
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_py
+[  7%] [32mBuilding CXX object CMakeFiles/talker_pose.dir/src/talker_pose.cpp.o[0m
+[  7%] Built target geometry_msgs_generate_messages_nodejs
+[ 15%] [32mBuilding CXX object CMakeFiles/go_to_poi.dir/src/go_to_poi.cpp.o[0m
+[ 30%] Built target talker_poi
+[ 30%] Built target geometry_msgs_generate_messages_eus
+[ 30%] Built target _go_to_poi_generate_messages_check_deps_poi
+[ 38%] Built target go_to_poi_generate_messages_cpp
+[ 46%] Built target go_to_poi_generate_messages_nodejs
+[ 61%] Built target go_to_poi_generate_messages_py
+[ 76%] Built target go_to_poi_generate_messages_eus
+[ 84%] Built target go_to_poi_generate_messages_lisp
+[ 84%] Built target go_to_poi_generate_messages
+[ 92%] [32m[1mLinking CXX executable /home/hyun1270/competition_ws/woohyun_ws/devel/.private/go_to_poi/lib/go_to_poi/talker_pose[0m
+[ 92%] Built target talker_pose
+/home/hyun1270/competition_ws/woohyun_ws/src/go_to_poi/src/go_to_poi.cpp: In function ‘void poi_array_sub(const ConstPtr&)’:
+/home/hyun1270/competition_ws/woohyun_ws/src/go_to_poi/src/go_to_poi.cpp:34:9: error: ‘calculate_range’ was not declared in this scope
+         calculate_range(current_pos, temp_poi, &range);
+         ^~~~~~~~~~~~~~~
+/home/hyun1270/competition_ws/woohyun_ws/src/go_to_poi/src/go_to_poi.cpp:34:9: note: suggested alternative: ‘copy_file_range’
+         calculate_range(current_pos, temp_poi, &range);
+         ^~~~~~~~~~~~~~~
+         copy_file_range
+/home/hyun1270/competition_ws/woohyun_ws/src/go_to_poi/src/go_to_poi.cpp:40:9: error: expected ‘;’ before ‘}’ token
+         }
+         ^
+/home/hyun1270/competition_ws/woohyun_ws/src/go_to_poi/src/go_to_poi.cpp: In function ‘int main(int, char**)’:
+/home/hyun1270/competition_ws/woohyun_ws/src/go_to_poi/src/go_to_poi.cpp:57:21: error: ‘argv’ was not declared in this scope
+     ros::init(argc, argv, "go_to_poi");
+                     ^~~~
+/home/hyun1270/competition_ws/woohyun_ws/src/go_to_poi/src/go_to_poi.cpp:57:21: note: suggested alternative: ‘argc’
+     ros::init(argc, argv, "go_to_poi");
+                     ^~~~
+                     argc
+CMakeFiles/go_to_poi.dir/build.make:62: recipe for target 'CMakeFiles/go_to_poi.dir/src/go_to_poi.cpp.o' failed
+make[2]: *** [CMakeFiles/go_to_poi.dir/src/go_to_poi.cpp.o] Error 1
+CMakeFiles/Makefile2:1361: recipe for target 'CMakeFiles/go_to_poi.dir/all' failed
+make[1]: *** [CMakeFiles/go_to_poi.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

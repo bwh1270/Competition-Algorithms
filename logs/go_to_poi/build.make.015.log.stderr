@@ -1,0 +1,10 @@
+/home/hyun1270/competition_ws/woohyun_ws/src/go_to_poi/src/talker_pose.cpp: In function ‘int main(int, char**)’:
+/home/hyun1270/competition_ws/woohyun_ws/src/go_to_poi/src/talker_pose.cpp:12:20: error: ‘geometry_msgs::PointStamped_<std::allocator<void> >::_point_type {aka struct geometry_msgs::Point_<std::allocator<void> >}’ has no member named ‘resize’
+     pose_msg.point.resize(1);
+                    ^~~~~~
+/home/hyun1270/competition_ws/woohyun_ws/src/go_to_poi/src/talker_pose.cpp:18:17: error: expected ‘;’ before ‘return’
+     ros::spin() return 0;
+                 ^~~~~~
+make[2]: *** [CMakeFiles/talker_pose.dir/src/talker_pose.cpp.o] Error 1
+make[1]: *** [CMakeFiles/talker_pose.dir/all] Error 2
+make: *** [all] Error 2

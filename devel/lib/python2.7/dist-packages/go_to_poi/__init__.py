@@ -1,0 +1,1 @@
+/home/hyun1270/competition_ws/woohyun_ws/devel/.private/go_to_poi/lib/python2.7/dist-packages/go_to_poi/__init__.py

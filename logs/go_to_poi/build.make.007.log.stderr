@@ -1,0 +1,45 @@
+/home/hyun1270/competition_ws/woohyun_ws/src/go_to_poi/src/go_to_poi.cpp: In function ‘void poi_callback(const ConstPtr&)’:
+/home/hyun1270/competition_ws/woohyun_ws/src/go_to_poi/src/go_to_poi.cpp:16:31: error: no match for ‘operator*’ (operand type is ‘const value_type {aka const geometry_msgs::Point_<std::allocator<void> >}’)
+         sizeof(*msg) / sizeof(*msg->poi[0]);
+In file included from /usr/include/boost/config/no_tr1/complex.hpp:21:0,
+                 from /usr/include/boost/math/policies/error_handling.hpp:17,
+                 from /usr/include/boost/math/special_functions/round.hpp:14,
+                 from /opt/ros/melodic/include/ros/time.h:58,
+                 from /opt/ros/melodic/include/ros/ros.h:38,
+                 from /home/hyun1270/competition_ws/woohyun_ws/src/go_to_poi/src/go_to_poi.cpp:1:
+/usr/include/c++/7/complex:404:5: note: candidate: template<class _Tp> std::complex<_Tp> std::operator*(const _Tp&, const std::complex<_Tp>&)
+     operator*(const _Tp& __x, const complex<_Tp>& __y)
+     ^~~~~~~~
+/usr/include/c++/7/complex:404:5: note:   template argument deduction/substitution failed:
+/home/hyun1270/competition_ws/woohyun_ws/src/go_to_poi/src/go_to_poi.cpp:16:42: note:   candidate expects 2 arguments, 1 provided
+         sizeof(*msg) / sizeof(*msg->poi[0]);
+                                          ^
+In file included from /usr/include/boost/config/no_tr1/complex.hpp:21:0,
+                 from /usr/include/boost/math/policies/error_handling.hpp:17,
+                 from /usr/include/boost/math/special_functions/round.hpp:14,
+                 from /opt/ros/melodic/include/ros/time.h:58,
+                 from /opt/ros/melodic/include/ros/ros.h:38,
+                 from /home/hyun1270/competition_ws/woohyun_ws/src/go_to_poi/src/go_to_poi.cpp:1:
+/usr/include/c++/7/complex:395:5: note: candidate: template<class _Tp> std::complex<_Tp> std::operator*(const std::complex<_Tp>&, const _Tp&)
+     operator*(const complex<_Tp>& __x, const _Tp& __y)
+     ^~~~~~~~
+/usr/include/c++/7/complex:395:5: note:   template argument deduction/substitution failed:
+/home/hyun1270/competition_ws/woohyun_ws/src/go_to_poi/src/go_to_poi.cpp:16:42: note:   ‘const value_type {aka const geometry_msgs::Point_<std::allocator<void> >}’ is not derived from ‘const std::complex<_Tp>’
+         sizeof(*msg) / sizeof(*msg->poi[0]);
+                                          ^
+In file included from /usr/include/boost/config/no_tr1/complex.hpp:21:0,
+                 from /usr/include/boost/math/policies/error_handling.hpp:17,
+                 from /usr/include/boost/math/special_functions/round.hpp:14,
+                 from /opt/ros/melodic/include/ros/time.h:58,
+                 from /opt/ros/melodic/include/ros/ros.h:38,
+                 from /home/hyun1270/competition_ws/woohyun_ws/src/go_to_poi/src/go_to_poi.cpp:1:
+/usr/include/c++/7/complex:386:5: note: candidate: template<class _Tp> std::complex<_Tp> std::operator*(const std::complex<_Tp>&, const std::complex<_Tp>&)
+     operator*(const complex<_Tp>& __x, const complex<_Tp>& __y)
+     ^~~~~~~~
+/usr/include/c++/7/complex:386:5: note:   template argument deduction/substitution failed:
+/home/hyun1270/competition_ws/woohyun_ws/src/go_to_poi/src/go_to_poi.cpp:16:42: note:   ‘const value_type {aka const geometry_msgs::Point_<std::allocator<void> >}’ is not derived from ‘const std::complex<_Tp>’
+         sizeof(*msg) / sizeof(*msg->poi[0]);
+                                          ^
+make[2]: *** [CMakeFiles/go_to_poi.dir/src/go_to_poi.cpp.o] Error 1
+make[1]: *** [CMakeFiles/go_to_poi.dir/all] Error 2
+make: *** [all] Error 2
